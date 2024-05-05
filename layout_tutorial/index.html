@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>레이아웃 연습</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav>
+      <div class="container">
+        <h1 class="nav-logo">
+          <a href="./index.html"><i class="fas fa-yin-yang"></i> Layout</a>
+        </h1>
+        <div class="nav-menu">
+          <ul class="nav-btn">
+            <li><a href="./index.html">홈</a></li>
+            <li><a href="#">소개</a></li>
+            <li><a href="https://techit.education">Techit</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hd">
+      <div class="container">
+        <h2 class="hd-title">POSSIBILITY TO REALITY</h2>
+        <p class="hd-content">응원합니다 여러분~</p>
+      </div>
+    </header>
+
+    <section class="sec">
+      <div class="container">
+        <article class="artc">
+          <div class="card-img">
+            <!-- 이미지는 본래 인라인 요소인데, 카드로서 어떤 크기를 차지하게 하기 위해 div로 감싼다-->
+            <img src="./image-04.jpg" alt="image1" />
+          </div>
+          <p>이미지1</p>
+        </article>
+        <article class="artc">
+          <div class="card-img">
+            <img src="./image-05.jpg" alt="image2" />
+          </div>
+          <p>이미지2</p>
+        </article>
+        <article class="artc">
+          <div class="card-img">
+            <img src="./image-06.jpg" alt="image3" />
+          </div>
+          <p>이미지3</p>
+        </article>
+      </div>
+    </section>
+
+    <footer class="ft">
+      <div class="container">
+        <p>&copy; copyright</p>
+        <!-- &copy 등으로 미리 예약된 특수문자 넣기 가능 -->
+      </div>
+    </footer>
+  </body>
+</html>
