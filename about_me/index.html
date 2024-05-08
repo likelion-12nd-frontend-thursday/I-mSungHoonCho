@@ -27,7 +27,7 @@
   <body>
     <div class="flex flex-col space-y-4">
       <header
-        class="fixed w-full bg-white border-b-2 border-solid border-neutral-900"
+        class="fixed z-10 w-full bg-white border-b-2 border-solid border-neutral-900"
       >
         <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
           <div class="flex h-16 items-center justify-between">
@@ -56,35 +56,29 @@
           </div>
         </div>
       </header>
+      <!-- 위쪽 공백용 -->
       <section class="sticky top-12 p-4"></section>
       <!-- 1st section -->
       <section class="sticky top-16 p-4">
         <div
-          class="mx-auto max-w-screen-lg max-h-96 px-4 py-16 sm:px-6 sm:py-24 lg:px-8 bg-slate-100 border-2 border-neutral-900 rounded-md overflow-hidden"
+          class="mx-auto max-w-screen-xl px-8 py-8 bg-slate-100 border-2 border-neutral-900 rounded-md overflow-hidden"
         >
           <div class="max-w-3xl">
             <h2 class="text-3xl font-bold sm:text-4xl">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod
-              alias doloribus impedit.
+              조성훈<span class="text-lg">이라고 합니다.</span>
             </h2>
           </div>
 
           <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-            <div class="relative h-32 overflow-hidden sm:h-80 lg:h-full"></div>
+            <div class="relative h-64 xl:h-96 lg:h-96 overflow-hidden">
+              <img src="https://i.imgur.com/vsE2iQa.png" alt loading="lazy" />
+            </div>
 
             <div class="lg:py-16">
-              <article class="space-y-4 text-gray-600">
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
-                  qui hic atque tenetur quis eius quos ea neque sunt,
-                  accusantium soluta minus veniam tempora deserunt? Molestiae
-                  eius quidem quam repellat.
-                </p>
-
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Dolorum explicabo quidem voluptatum voluptas illo accus
-                </p>
+              <article class="space-y-4 text-gray-600 xl:text-xl lg:text-lg">
+                <p>세종대학교 19학번이고 .. 물리천문학과고 ..</p>
+                <p>소프트웨어학과를 복수전공중이고요 ..</p>
+                <p>INFP입니다.</p>
               </article>
             </div>
           </div>
@@ -93,39 +87,32 @@
       <!-- 2nd section-->
       <section class="sticky top-20 p-4 h-fit">
         <div
-          class="mx-auto max-w-screen-lg max-h-96 px-4 py-16 sm:px-6 sm:py-24 lg:px-8 bg-slate-100 border-2 border-neutral-900 rounded-md overflow-hidden"
+          class="mx-auto max-w-screen-xl px-8 py-8 bg-slate-100 border-2 border-neutral-900 rounded-md overflow-hidden"
         >
           <div class="max-w-3xl">
-            <h2 class="text-3xl font-bold sm:text-4xl">두번째 섹션입니다</h2>
+            <h2 class="text-3xl font-bold sm:text-4xl">제 취미는</h2>
           </div>
 
           <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-            <div class="relative h-32 overflow-hidden sm:h-80 lg:h-full">
+            <div class="relative h-52 overflow-hidden sm:h-80 lg:h-full">
               <img
-                alt=""
-                src="https://images.unsplash.com/photo-1496843916299-590492c751f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80"
-                class="absolute inset-0 h-full w-full object-cover"
+                src="https://i.imgur.com/g9uE7tV.jpeg"
+                alt
+                loading="lazy"
+                class=""
               />
             </div>
 
             <div class="lg:py-16">
-              <article class="space-y-4 text-gray-600">
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
-                  qui hic atque tenetur quis eius quos ea neque sunt,
-                  accusantium soluta minus veniam tempora deserunt? Molestiae
-                  eius quidem quam repellat.
-                </p>
-
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Dolorum explicabo quidem voluptatum voluptas illo accusantium
-                  ipsam quis, vel mollitia? Vel provident culpa dignissimos
-                  possimus, perferendis consectetur odit accusantium dolorem
-                  amet voluptates aliquid, ducimus tempore incidunt quas.
-                  Veritatis molestias tempora distinctio voluptates sint! Itaque
-                  quasi corrupti, sequi quo odit illum impedit!
-                </p>
+              <article class="space-y-4 text-gray-600 xl:text-xl lg:text-lg">
+                <ul>
+                  <li>1. 좁은 집구석에서 요리하기</li>
+                  <li>2. 가끔 배드민턴같은거 하러가기</li>
+                  <li>3. 해외축구 시청하기.. 근데 이제 맥주 한 캔을 곁들인</li>
+                  <li>4. 버거 먹기?</li>
+                  <br />
+                  <li>등등.. 이 있습니다</li>
+                </ul>
               </article>
             </div>
           </div>
@@ -134,33 +121,49 @@
       <!-- 3rd 섹션 -->
       <section class="sticky top-24 p-4 h-fit">
         <div
-          class="mx-auto max-w-screen-lg max-h-96 px-4 py-16 sm:px-6 sm:py-24 lg:px-8 bg-slate-100 border-2 border-neutral-900 rounded-md overflow-hidden"
+          class="mx-auto max-w-screen-xl px-8 py-8 bg-slate-100 border-2 border-neutral-900 rounded-md overflow-hidden"
         >
           <div class="max-w-3xl">
-            <h2 class="text-3xl font-bold sm:text-4xl">세 번째 섹션입니다</h2>
+            <h2 class="text-3xl font-bold sm:text-4xl">
+              이런 경험<span class="text-xl">이 있습니다</span>
+            </h2>
           </div>
 
-          <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-            <div class="relative h-32 overflow-hidden sm:h-80 lg:h-full"></div>
+          <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-12">
+            <div class="flex h-20 overflow-hidden sm:h-64 lg:h-2/3 space-x-4">
+              <img
+                src="https://i.imgur.com/lKzrhda.png"
+                alt
+                loading="lazy"
+                class=""
+              />
+              <img
+                src="https://i.imgur.com/26U2VeI.png"
+                alt
+                loading="lazy"
+                class=""
+              />
+            </div>
 
             <div class="lg:py-16">
-              <article class="space-y-4 text-gray-600">
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
-                  qui hic atque tenetur quis eius quos ea neque sunt,
-                  accusantium soluta minus veniam tempora deserunt? Molestiae
-                  eius quidem quam repellat.
-                </p>
-
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Dolorum explicabo quidem voluptatum voluptas illo accusantium
-                  ipsam quis, vel mollitia? Vel provident culpa dignissimos
-                  possimus, perferendis consectetur odit accusantium dolorem
-                  amet voluptates aliquid, ducimus tempore incidunt quas.
-                  Veritatis molestias tempora distinctio voluptates sint! Itaque
-                  quasi corrupti, sequi quo odit illum impedit!
-                </p>
+              <article class="space-y-4 text-neutral-600 lg:text-lg xl:text-xl">
+                <ul>
+                  <li>- 42서울에서 10개월 공부</li>
+                  <li>
+                    - 알고리즘 스터디 내부용 사이트 개발 프로젝트에 프론트엔드
+                    개발자로 참여
+                  </li>
+                  <li>
+                    - 그 외.. 깃허브 블로그 운영, 개인용 옵시디언 플러그인 개발
+                    등
+                  </li>
+                  <br />
+                  <p>
+                    막상 별거 없는데 <br />그냥 이것저것 재밌어보이면 해보고
+                    있습니다 <br /><br />
+                    앞으로는 Next.js나 three.js같은 것들 배워보고 싶습니다
+                  </p>
+                </ul>
               </article>
             </div>
           </div>
@@ -170,32 +173,38 @@
       <!-- 4th 섹션 -->
       <section class="sticky top-28 p-4 h-fit">
         <div
-          class="mx-auto max-w-screen-lg max-h-96 px-4 py-16 sm:px-6 sm:py-24 lg:px-8 bg-slate-100 border-2 border-neutral-900 rounded-md overflow-hidden"
+          class="mx-auto max-w-screen-xl px-8 py-8 bg-slate-100 border-2 border-neutral-900 rounded-md overflow-hidden"
         >
           <div class="max-w-3xl">
-            <h2 class="text-3xl font-bold sm:text-4xl">네 번째 섹션입니다</h2>
+            <h2 class="text-3xl font-bold sm:text-4xl">Find Me Here</h2>
           </div>
 
           <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-            <div class="relative h-32 overflow-hidden sm:h-80 lg:h-full"></div>
+            <div class="relative h-32 overflow-hidden sm:h-80 lg:h-full">
+              <img src="https://i.imgur.com/e0sOXlk.png" alt loading="lazy" />
+            </div>
 
-            <div class="lg:py-16">
+            <div class="lg:py-24">
               <article class="space-y-4 text-gray-600">
                 <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
-                  qui hic atque tenetur quis eius quos ea neque sunt,
-                  accusantium soluta minus veniam tempora deserunt? Molestiae
-                  eius quidem quam repellat.
+                  기술블로그 자주 쓰려고 하고 있습니다 <br />
+                  엄근진보다는 캐주얼하게 씁니다.
+                  <a class="underline" href="https://sungpaks.github.io/"
+                    >심심하면 보러오세요</a
+                  >
+                  <br />
                 </p>
+                <br />
 
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Dolorum explicabo quidem voluptatum voluptas illo accusantium
-                  ipsam quis, vel mollitia? Vel provident culpa dignissimos
-                  possimus, perferendis consectetur odit accusantium dolorem
-                  amet voluptates aliquid, ducimus tempore incidunt quas.
-                  Veritatis molestias tempora distinctio voluptates sint! Itaque
-                  quasi corrupti, sequi quo odit illum impedit!
+                <p class="lg:text-2xl xl:text-3xl italic">
+                  <a href="https://www.instagram.com/sung_paks/"
+                    ><i class="fab fa-instagram"></i> Instagram</a
+                  >
+                  <br /><br /><a href="https://github.com/sungpaks"
+                    ><i class="fab fa-github"></i> Github</a
+                  >
+                  <br /><br />
+                  <i class="fas fa-at"></i> emforhs03150@gmail.com
                 </p>
               </article>
             </div>
