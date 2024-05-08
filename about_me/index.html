@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <meta property="og:title" content="About Me" />
+    <meta property="og:description" content="I'm Sunghoon Cho" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="flex flex-col space-y-4">
+      <header
+        class="fixed w-full bg-white border-b-2 border-solid border-neutral-900"
+      >
+        <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+          <div class="flex h-16 items-center justify-between">
+            <div class="flex-1 md:flex md:items-center md:gap-12">
+              <a class="block text-teal-600" href="#">
+                <span class="text-2xl"
+                  ><i class="fas fa-search"></i> About Me</span
+                >
+              </a>
+            </div>
+
+            <div class="md:flex md:items-center md:gap-12">
+              <nav aria-label="Global" class="hidden md:block">
+                <ul class="flex items-center gap-6 text-sm">
+                  <li>
+                    <a
+                      class="text-gray-500 transition hover:text-gray-500/75"
+                      href="#"
+                    >
+                      About
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="text-gray-500 transition hover:text-gray-500/75"
+                      href="#"
+                    >
+                      Projects
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      class="text-gray-500 transition hover:text-gray-500/75"
+                      href="https://sungpaks.github.io/"
+                    >
+                      Blog
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section class="sticky top-12 p-4"></section>
+      <!-- 1st section -->
+      <section class="sticky top-16 p-4">
+        <div
+          class="mx-auto max-w-screen-lg max-h-96 px-4 py-16 sm:px-6 sm:py-24 lg:px-8 bg-slate-100 border-2 border-neutral-900 rounded-md overflow-hidden"
+        >
+          <div class="max-w-3xl">
+            <h2 class="text-3xl font-bold sm:text-4xl">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod
+              alias doloribus impedit.
+            </h2>
+          </div>
+
+          <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+            <div class="relative h-32 overflow-hidden sm:h-80 lg:h-full"></div>
+
+            <div class="lg:py-16">
+              <article class="space-y-4 text-gray-600">
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
+                  qui hic atque tenetur quis eius quos ea neque sunt,
+                  accusantium soluta minus veniam tempora deserunt? Molestiae
+                  eius quidem quam repellat.
+                </p>
+
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Dolorum explicabo quidem voluptatum voluptas illo accus
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 2nd section-->
+      <section class="sticky top-20 p-4 h-fit">
+        <div
+          class="mx-auto max-w-screen-lg max-h-96 px-4 py-16 sm:px-6 sm:py-24 lg:px-8 bg-slate-100 border-2 border-neutral-900 rounded-md overflow-hidden"
+        >
+          <div class="max-w-3xl">
+            <h2 class="text-3xl font-bold sm:text-4xl">두번째 섹션입니다</h2>
+          </div>
+
+          <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+            <div class="relative h-32 overflow-hidden sm:h-80 lg:h-full">
+              <img
+                alt=""
+                src="https://images.unsplash.com/photo-1496843916299-590492c751f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80"
+                class="absolute inset-0 h-full w-full object-cover"
+              />
+            </div>
+
+            <div class="lg:py-16">
+              <article class="space-y-4 text-gray-600">
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
+                  qui hic atque tenetur quis eius quos ea neque sunt,
+                  accusantium soluta minus veniam tempora deserunt? Molestiae
+                  eius quidem quam repellat.
+                </p>
+
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Dolorum explicabo quidem voluptatum voluptas illo accusantium
+                  ipsam quis, vel mollitia? Vel provident culpa dignissimos
+                  possimus, perferendis consectetur odit accusantium dolorem
+                  amet voluptates aliquid, ducimus tempore incidunt quas.
+                  Veritatis molestias tempora distinctio voluptates sint! Itaque
+                  quasi corrupti, sequi quo odit illum impedit!
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 3rd 섹션 -->
+      <section class="sticky top-24 p-4 h-fit">
+        <div
+          class="mx-auto max-w-screen-lg max-h-96 px-4 py-16 sm:px-6 sm:py-24 lg:px-8 bg-slate-100 border-2 border-neutral-900 rounded-md overflow-hidden"
+        >
+          <div class="max-w-3xl">
+            <h2 class="text-3xl font-bold sm:text-4xl">세 번째 섹션입니다</h2>
+          </div>
+
+          <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+            <div class="relative h-32 overflow-hidden sm:h-80 lg:h-full"></div>
+
+            <div class="lg:py-16">
+              <article class="space-y-4 text-gray-600">
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
+                  qui hic atque tenetur quis eius quos ea neque sunt,
+                  accusantium soluta minus veniam tempora deserunt? Molestiae
+                  eius quidem quam repellat.
+                </p>
+
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Dolorum explicabo quidem voluptatum voluptas illo accusantium
+                  ipsam quis, vel mollitia? Vel provident culpa dignissimos
+                  possimus, perferendis consectetur odit accusantium dolorem
+                  amet voluptates aliquid, ducimus tempore incidunt quas.
+                  Veritatis molestias tempora distinctio voluptates sint! Itaque
+                  quasi corrupti, sequi quo odit illum impedit!
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4th 섹션 -->
+      <section class="sticky top-28 p-4 h-fit">
+        <div
+          class="mx-auto max-w-screen-lg max-h-96 px-4 py-16 sm:px-6 sm:py-24 lg:px-8 bg-slate-100 border-2 border-neutral-900 rounded-md overflow-hidden"
+        >
+          <div class="max-w-3xl">
+            <h2 class="text-3xl font-bold sm:text-4xl">네 번째 섹션입니다</h2>
+          </div>
+
+          <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+            <div class="relative h-32 overflow-hidden sm:h-80 lg:h-full"></div>
+
+            <div class="lg:py-16">
+              <article class="space-y-4 text-gray-600">
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
+                  qui hic atque tenetur quis eius quos ea neque sunt,
+                  accusantium soluta minus veniam tempora deserunt? Molestiae
+                  eius quidem quam repellat.
+                </p>
+
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Dolorum explicabo quidem voluptatum voluptas illo accusantium
+                  ipsam quis, vel mollitia? Vel provident culpa dignissimos
+                  possimus, perferendis consectetur odit accusantium dolorem
+                  amet voluptates aliquid, ducimus tempore incidunt quas.
+                  Veritatis molestias tempora distinctio voluptates sint! Itaque
+                  quasi corrupti, sequi quo odit illum impedit!
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="h-96"></footer>
+    </div>
+  </body>
+</html>
