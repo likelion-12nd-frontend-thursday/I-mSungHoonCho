@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import stacks_array, { Stacks } from "./components/Sample";
 import "./css/Homework1.css";
 
